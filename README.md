@@ -16,12 +16,12 @@ Send collected data to the server (sending the motion video or picture to a serv
 Process data
 Get response 
 
-## Main  module
+## Mainmodule
 
-Camera interfacing
-image capturing
-connecting with hardware
-Motion detection
+ Camera interfacing
+ image capturing
+ connecting with hardware
+ Motion detection
 
 For accesing image we use twitter plateform because twitter api was easily available.
 
