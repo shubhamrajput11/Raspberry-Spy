@@ -19,8 +19,11 @@ Get response
 ## Mainmodule
 
  Camera interfacing
+ 
  image capturing
+ 
  connecting with hardware
+ 
  Motion detection
 
 For accesing image we use twitter plateform because twitter api was easily available.
