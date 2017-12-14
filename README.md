@@ -36,6 +36,7 @@ respberry configuration
 ## Pseudo code
 
 DISPLAYING THE IMAGE
+
 from openCV import Image, Display
 from time import sleep 
 myDisplay = Display() 
@@ -45,6 +46,7 @@ while not myDisplay.isDone():
 sleep(0.1) 
 
 Modifying and Saving an image
+
 from openCV import Image, DrawingLayer, Color 
 from time import sleep 
 raspberryImage = Image("raspberries.jpg") 
@@ -57,6 +59,7 @@ raspberryImage.applyLayers()
 raspberryImage.save("raspberries-titled.jpg") 
 
 Face Detection
+
 from openCV import Camera, Display 
 from time import sleep 
 myCamera = Camera(prop_set={'width':320, 'height': 240}) 
@@ -73,6 +76,7 @@ print "No faces detected."
  sleep(.1)  
 
 Twitter interfacing
+
 Sudo pip-install twython
 
 We have used twitter because we easily get the api of twitter and its keys.
