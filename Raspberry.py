@@ -1,4 +1,4 @@
-from SimpleCV import Camera 
+from openCV import Camera 
 from time import sleep 
 print("setting GPIO") 
 sw=21 
